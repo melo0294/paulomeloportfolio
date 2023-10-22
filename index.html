@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LINK PARA O ARQUIVO CSS -->
+    <link rel="stylesheet" href="estilo.css">
+    <title>Meu Portfólio</title>
+</head>
+<body>
+
+    <header>
+        <h1>Paulo Roberto de Souza Melo</h1>
+    </header>
+
+    <!-- BARRA DE NAVEGAÇÃO COM LINKS -->
+    <nav>
+        <a href="#sobre">Sobre Mim</a>
+        <a href="#formacao">Formação</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Olá!
+            Meu nome é Paulo Melo, tenho 29 anos, sou graduado em Educação Física e pós-graduado em Fisiologia do Exercício. Meu mundo sempre girou em torno de esportes e atividades físicas. Adoro colocar o corpo em movimento, seja em uma corrida ao ar livre ou praticando algum esporte.
+            <br><br>
+            Falando em ar livre, sou um amante da natureza. Acredito que não há nada como uma boa caminhada em trilhas ou um dia tranquilo na praia. Animais? Amo todos! Desde os mais peludos até os com escamas. Se tem quatro patas, penas ou barbatanas, estou dentro.
+            <br><br>
+            Ah, e estou vivendo um sonho! Apesar da minha trajetória em Educação Física, a paixão por tecnologia nunca me abandonou. Agora estou mergulhando fundo em Análise e Desenvolvimento de Sistemas. Desde criança sonho com esse momento, e a cada linha de código, sinto que estou no caminho certo.
+            <br><br>
+            Esta página é um pouquinho de quem sou. Espero que você curta conhecer mais sobre minhas paixões, jornada e, claro, minhas aventuras no mundo da programação!</p>
+    </section>
+
+    <section id="formacao">
+        <h2>Formação Acadêmica</h2>
+        <p><h3>Graduação:</h3>
+            <h4>Educação Física</h4>
+            Conclusão: 2015<br>
+            Instituição: Pontifícia Universidade Católica de Campinas
+            <br><br>
+            <h4>Análise e Desenvolvimento de Sistemas</h4>
+            Cursando desde 2023 até 2025 <br>
+            Instituição: Uninter
+        </p>
+        <p><h3>Pós-Graduação:</h3>
+            
+            <h4>Fisiologia do Exercício</h4>
+            Conclusão: 2021<br>
+            Instituição: Uniasselvi
+        </p>    
+            
+        <p><h3>Cursos:</h3>
+            
+            <h4>Desenvolvimento Web Completo</h4>
+            
+            Udemy – Dezembro de 2022<br>
+            Carga Horária: 114,5 horas<br><br>
+
+            <h4>Complete NodeJS 2023</h4>
+            
+            Udemy – Janeiro de 2023<br>
+            Carga Horária: 46,5 horas<br><br>
+
+            <h4>Amazon Web Services (AWS): Essencial</h4>
+            
+            Udemy – Abril de 2023<br>
+            Carga Horária: 12,5 horas<br><br>
+
+            <h4>Fundamentos da Engenharia de Dados</h4>
+            
+            Data Science Academy – Agosto de 2023<br>
+            Carga Horária: 24 horas
+        </p>   
+        <p><h3>Idiomas:</h3>
+            
+            Inglês: Fluente<br>
+            Espanhol: Avançado
+        </p>
+        <p>Essa é uma visão geral da minha trajetória acadêmica e dos cursos que tenho realizado para aprimorar minhas habilidades técnicas. A busca constante por conhecimento é uma das minhas principais motivações.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+        <p>Ao longo da minha jornada em Análise e Desenvolvimento de Sistemas, tenho dedicado tempo e esforço ao desenvolvimento de projetos significativos que refletem meu comprometimento e paixão pela programação. Alguns desses projetos estão disponíveis online, representando minha evolução e aprendizado constante.
+            <br>
+            Convido você a explorar meu GitHub para ter acesso aos códigos e detalhes técnicos de alguns desses projetos. Lá, você encontrará uma variedade de aplicações, desde desenvolvimento web até soluções mais complexas em que busco aplicar boas práticas e conceitos modernos de programação.
+            <br>
+            Além disso, você pode conferir meu perfil no LinkedIn para obter uma visão mais abrangente da minha experiência, habilidades e interações profissionais.
+            <br>
+            Agradeço por dedicar um tempo para explorar meu portfólio, e estou à disposição para qualquer dúvida ou feedback que possa ter. Juntos, podemos continuar construindo um futuro repleto de inovação e realizações.</p>
+            <br>
+            <span style="font-weight: bold; justify-content: center; display: flex;"> Os dois ícones abaixo são links que vão te redirecionar diretamente para minhas páginas no Github e Linkedin, é só clicar.</span>
+            <br>
+        <!-- ÍCONES COM LINK PARA PORTFÓLIO E REDE SOCIAL -->
+        <a href="https://github.com/melo0294">
+            <img src="img/github.png" alt="GitHub">
+        </a>
+          
+        <a href="https://www.linkedin.com/in/melo0294/">
+            <img src="img/linkedin.png" alt="LinkedIn">
+        </a>           
+    </section>
+
+    <!-- FORMULÁRIO DE CONTATO COM INPUTS OBRIGATÓRIOS E BOTÃO DE ENVIO -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </section>
+    <br><br><br><br>
+
+    <!-- RODAPÉ -->
+    <footer>
+        &copy; 2023 Meu Portfólio por Paulo Melo
+    </footer>
+
+</body>
+</html>
